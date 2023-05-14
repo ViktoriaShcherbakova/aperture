@@ -1,0 +1,10 @@
+$main: #000000;
+$primary-color: #FFFFFF;
+$secondary-color: #C0C0C0;
+$header-color: #181818;
+
+@mixin font($font-size:16px, $line-height:20px, $font-weight:400) {
+  font-size: $font-size;
+  line-height: $line-height;
+  font-weight: $font-weight;
+}
